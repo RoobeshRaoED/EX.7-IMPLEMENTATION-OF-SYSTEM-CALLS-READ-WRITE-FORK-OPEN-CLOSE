@@ -26,13 +26,13 @@ flags : How you like to use
 
 O_RDONLY: read only, O_WRONLY: write only, O_RDWR: read and write, O_CREAT: create
 
-file if it doesn’t exist, O_EXCL: prevent creation if it already exists
+file if it doesn’t exist, O_EXCL: prevent creation if it already exists.
 
 3. close: Tells the operating system you are done with a file descriptor and Close the file which
 pointed by fd.
 
 Syntax: int close(int fd); fd :file
-descriptor
+descriptor.
 
 4. read: From the file indicated by the file descriptor fd, the read() function reads cnt bytes of input
 into the memory area indicated by buf. A successful read() updates the access time for thefile.
