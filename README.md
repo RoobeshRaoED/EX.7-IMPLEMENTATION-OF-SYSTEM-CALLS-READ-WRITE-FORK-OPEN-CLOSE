@@ -103,7 +103,7 @@ return 0;
 ```
 ## OUTPUT:
 
-
+![](1.png)
 
 ## RESULT:
 
